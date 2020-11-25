@@ -1,0 +1,274 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none;  
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 40px;
+}
+
+.watch{
+  width: 1340px;
+  margin: 0 auto;
+  background-image: url('../img/watches.jpg');
+  background-repeat: no-repeat;
+  background-position-x: 900px;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+
+}
+
+.menu .menu_items {
+margin-left: 30px;
+padding-bottom: 15px;
+color: #999999;
+border-bottom: 2px solid transparent;
+transition: all ease .5s;
+}
+
+.menu .menu_items:hover {
+color: #000;
+border-bottom: 2px solid #000;
+}
+
+input {
+  margin-left: 30px;
+  border: none;
+  color: #737573;
+  font-size: 16px;
+  outline: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000;
+  width: 170px;
+}
+
+
+.watch {
+position:relative;
+padding-top: 120px;
+padding-bottom: 200px;
+border-bottom: 1px solid rgba(58, 54, 54, 0.5);
+
+}
+/* .watch:after {
+content: "";
+position: absolute;
+background-image: url(../img/watches.jpg);
+background-position: left;
+background-size: cover;
+background-repeat: no-repeat;
+width: 650px;
+height: 800px;
+right: -300px;
+top: 0;
+bottom: -160px;
+margin: auto;
+
+} */
+
+.watch_heading {
+font-size: 56px;
+margin-bottom: 50px;
+}
+
+.watch_text {
+color: #9F9F9E;
+line-height: 26px;
+margin-bottom: 50px;
+padding-left: 30px;
+border-left: 1px solid #000;
+}
+
+.watch_link {
+color: #fff;
+background-color: #EA625C;
+padding: 15px 25px;
+transition: all ease 0.3s;
+}
+
+.watch_link:hover {
+  background-color: #e7534c;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+.section_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.article_title {
+margin-bottom: 30px;
+}
+
+.article_text {
+line-height: 28px;
+margin-bottom: 15px;
+}
+
+.article_dots {
+  display: flex;
+}
+
+.dot {
+  display: inline-block;
+  background-color: #817c7c;
+  width: 4px;
+  height: 4px;
+  margin-right: 15px;
+}
+
+.article_link {
+  display: inline-block;
+  margin-top: 7px;
+  color: #EA625C;
+  font-weight: 600;
+  padding-left: 55px;
+  position: relative;
+  transition: all ease 0.5s;
+}
+
+.article_link:before{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background-color: #EA625C;
+  left:0;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  transition: all ease 0.5s;
+}
+
+.article_link:hover {
+  padding-left: 70px;
+}
+
+.article_link:hover:before {
+  width: 50px;
+}
+
+/* E'TIBOR: HOVER BOGANDA HAM BEFOREGA , HAM HAM OZIGA ALOHIDA TRANSITION YOZISH KERAKMI ? */
+
+
+.nike_section {
+margin-bottom: 40px;
+}
+
+.ns_inner {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.ns_left {
+
+}
+
+.ns_left .nike_title {
+  font-size: 56px;
+  margin-bottom: 50px;
+}
+
+.ns_left .nike_text {
+  color: #9F9F9E;
+line-height: 26px;
+margin-bottom: 50px;
+padding-left: 30px;
+border-left: 1px solid #000;
+}
+
+.ns_left .nike_link {
+  color: #fff;
+background-color: #EA625C;
+padding: 15px 25px;
+transition: all ease 0.3s;
+}
+
+.ns_left .nike_link:hover {
+  background-color: #e7534c;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 650px;
+  background-image: url(../img/runners.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+
+footer .container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer_inner .footer_heading {
+  font-size: 48px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.footer_inner .footer_text {
+  color: #9F9F9E;
+  line-height: 26px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  border-left: 1px solid #fff;
+  color: #fff;
+}
+
+.footer_inner .footer_link {
+  color: #fff;
+  background-color: #EA625C;
+  padding: 15px 25px;
+  transition: all ease 0.3s;
+}
+
+.footer_inner .footer_link:hover {
+  background-color: #e7534c;
+}
+
+
+
+
